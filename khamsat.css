@@ -1,0 +1,451 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.prent-continier {
+    width: 100%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.navbar {
+    padding: 0px 70px;
+    width: 100%;
+    background-color: #444;
+    display: flex;
+    z-index: 10;
+    justify-content: space-between;
+    height: 60px;
+    position: fixed;
+}
+
+.navbar div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar .nav_child-left img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 13px;
+    height: 100%;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    color: rgb(250, 248, 248);
+    font-family: 'Cairo', sans-serif;
+
+}
+
+.navbar a:hover {
+    background-color: #dbd0d0ba;
+
+
+}
+
+.navbar .nav-child-right img {
+    width: 140px;
+    height: 50px;
+    padding: 5px;
+
+}
+
+.navbar a i {
+    font-size: 17px;
+}
+
+.navbar .nav-child-right a i {
+    margin: 0px 5px;
+    font-size: 13px;
+}
+
+.navbar .nav-child-right a i.fa-bars {
+    font-size: 20px;
+}
+
+/* end navbar */
+/* start main */
+
+main {
+    min-height: 100vh;
+    background-image: url(./image/khamsat.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+
+
+}
+
+main h2 {
+    font-size: 35px;
+
+}
+
+main p {
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+main .parent-search {
+    position: relative;
+}
+
+main input {
+    width: 650px;
+    height: 60px;
+    padding: 5px 15px;
+
+    outline: none;
+    font-size: 20px;
+
+
+}
+
+main input:hover {
+    border-color: #7bf855;
+}
+
+main button {
+    width: 70px;
+    height: 80%;
+    border: none;
+    background-color: #52b035;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+}
+
+/* end main */
+/* section start */
+
+.services {
+    min-height: 100vh;
+    padding: 50px;
+    width: 100%;
+}
+
+.services h2 {
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+.services .parent-server {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services .parent-server .service-one {
+    background-image: url(./image/اعمال.jpg);
+}
+
+.services .parent-server .service-two {
+    background-image: url(./image/برمجه\ وتطوير.jpg);
+}
+
+.services .parent-server .service-three {
+    background-image: url(./image/التسويق\ الالكتروني.jpg);
+}
+
+.services .parent-server .service-four {
+    background-image: url(./image/تدريب\ عن\ بعد.jpg);
+}
+
+.services .parent-server .service-five {
+    background-image: url(./image/تصيم\ فيديو.jpg);
+}
+
+.services .parent-server .service-six {
+    background-image: url(./image/تصيم.jpg);
+}
+
+.services .parent-server .service-seven {
+    background-image: url(./image/صوتيات.jpg);
+}
+
+.services .parent-server .service-eight {
+    background-image: url(./image/كتابه\ وترجمه.jpg);
+}
+
+.services .parent-server .servicess {
+    width: 23%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 100%;
+    margin: 20px auto;
+    position: relative;
+}
+
+.services .parent-server .servicess::after {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .5;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.services .parent-server .servicess p {
+    font-size: 30px;
+    color: white;
+    z-index: 2;
+}
+
+/* section end */
+/* all service stsrt */
+
+
+.all-services {
+    width: 100%;
+    padding: 50PX 70PX 100PX;
+    background-color: beige;
+
+}
+
+.all-services .section-three-services {
+    margin: 20PX 0PX;
+    width: 100%;
+}
+
+.all-services .section-three-services .title {
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.all-services .section-three-services .title a {
+    padding: 0px 10px;
+    font-size: 18px;
+    text-decoration: none;
+    border: 1px solid #73dc53;
+    color: #5ad734;
+    transition: .3s linear;
+}
+
+.all-services .section-three-services .title a:hover {
+    background-color: #5fef34;
+    color: white;
+}
+
+.all-services .section-three-services .title p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.all-services .section-three-services .itmes {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-services .section-three-services .itmes .item {
+
+    width: 23%;
+    margin: 20px auto;
+    height: 330px;
+}
+
+.all-services .section-three-services .itmes .item img {
+    width: 100%;
+    height: 60%;
+    cursor: pointer;
+
+}
+
+.all-services .section-three-services .itmes .item a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.itmes .item a:hover {
+    color: #55ec27;
+
+}
+
+.all-services .section-three-services .itmes .item p {
+    font-size: 12px;
+    color: #787878;
+    font-family: 'Cairo', sans-serif;
+
+
+}
+
+.all-services .section-three-services .itmes .item i {
+    color: #fc9038;
+    font-size: 14px;
+}
+
+.all-services .section-three-services .itmes .item .price {
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+
+.all-services .section-three-services .itmes .item .price span {
+    font-size: 18px;
+
+}
+
+/* <!-- end all server --> */
+/* <!-- start links --> */
+.links {
+    display: flex;
+    padding: 50px 70px 20px;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.links .parent {
+    width: 25%;
+}
+
+.links .parent ul li {
+    list-style: none !important;
+    margin: 10px 0px;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: 'Cairo', sans-serif;
+}
+
+.links .parent ul li i {
+    font-size: 35px;
+    background-color: white;
+    padding: 0;
+    color: gray;
+}
+
+.links .parent .fa-facebook {
+    color: #3b5998;
+
+}
+
+.links .parent .fa-twitter {
+    color: #55acee;
+}
+
+.links .parent ul li .brand {
+    margin-top: 7px;
+}
+
+.links .parent ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #52b035;
+}
+
+.m-8 ul li {
+    margin: 0px 0px 8px !important;
+}
+
+.w-33 {
+    width: 33.33% !important;
+}
+
+.w-16 {
+    width: 16.6% !important;
+}
+
+/* <!-- end links --> */
+/* <!-- footer start --> */
+footer {
+    width: 100%;
+}
+
+footer .footer-top {
+    width: 100%;
+    background-color: white;
+    padding: 22px 80px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Cairo', sans-serif;
+}
+
+footer .footer-top span {
+    font-size: 13px;
+}
+
+footer .footer-top a {
+    text-decoration: none !important;
+    color: #444;
+    font-size: 14px;
+    margin: 0px 10px;
+}
+
+footer .footer-bottom {
+    width: 100%;
+    padding: 50px 0px 0px;
+}
+
+footer .footer-bottom .footparenter-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 20px;
+}
+
+footer .footer-bottom .footparenter-logo img {
+    height: 38px;
+}
+
+.links-bottom {
+    padding: 20px 200px;
+    font-family: 'Cairo', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links-bottom .itmes {
+    padding: 12px 0px;
+    width: 160px;
+    margin: 10px;
+}
+
+.links-bottom .itmes h2 {
+    font-size: 13px;
+    line-height: 0;
+}
+
+.links-bottom .itmes a {
+    text-decoration: none !important;
+    color: #777777;
+    font-size: 10px;
+    line-height: 0;
+}
